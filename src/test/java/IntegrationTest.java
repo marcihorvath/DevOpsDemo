@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class IntegrationTest {
     @Test
     public void integrationTest() {
+        System.out.println("Running IntegrationTest...");
         Calculator c1 = new Calculator();
         int r1 = c1.add(2,2);
 
