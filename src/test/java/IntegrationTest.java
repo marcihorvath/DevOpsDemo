@@ -3,10 +3,9 @@ import school.Calculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class IntegrationCheck {
+public class IntegrationTest {
     @Test
-    public void integrationCheck() {
-        System.out.println("Running IntegrationTest...");
+    public void testIntegration() {
         Calculator c1 = new Calculator();
         int r1 = c1.add(2,2);
 
